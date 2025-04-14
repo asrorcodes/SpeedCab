@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* Light mode */
+    --foreground: 240 10% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 4%;
+    /* ...boshqa ranglar... */
+  }
+
+  .dark {
+    --background: 240 10% 4%; /* Dark mode */
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 10%;
+    --card-foreground: 0 0% 98%;
+    /* ...boshqa ranglar... */
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

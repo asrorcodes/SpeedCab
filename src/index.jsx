@@ -1,0 +1,12 @@
+export {default as Sidebar} from "./components/layout/Sidebar"
+export {default as Footer} from "./components/layout/Footer"
+export {default as Navbar} from "./components/layout/Navbar"
+export {default as DashboardLayout} from "./pages/DashboardLayout"
+export {default as LoginPage} from "./pages/LoginPage"
+
+export {default as Cities} from "./pages/Cities"
+export {default as Drivers} from "./pages/Drivers"
+export {default as Orders} from "./pages/Orders"
+export {default as Services} from "./pages/Services"
+export {default as Tariff} from "./pages/Tariff"
+export {default as Test} from "./pages/Test"
